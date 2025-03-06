@@ -7,6 +7,19 @@
       font-family: sans-serif;
       text-align: center;
       margin: 20px;
+      background-color: black; /* Black background */
+      color: white; /* Make text readable against black */
+    }
+
+    .image-container {
+      margin: 20px 0; /* Add some space above and below the image */
+    }
+
+    .inserted-image {
+      max-width: 300px; /* Limit the image width */
+      height: auto; /* Maintain aspect ratio */
+      display: block; /* Remove default inline spacing */
+      margin: 0 auto; /* Center the image horizontally */
     }
 
     .button-container {
@@ -32,9 +45,13 @@
 
   <h1>Consignment - 12345</h1>
 
+  <div class="image-container">
+    <img src="https://github.com/MH-CW/4PLmenu.net/raw/main/4PL%20Screenshot.png" alt="Company Logo" class="inserted-image">
+  </div>
+
   <div class="button-container">
     <a href="https://docs.google.com/viewer?url=https://github.com/MH-CW/4PLmenu.net/raw/main/4PL%20tracking%20map.pdf&embedded=true" class="button">Tracking Map</a>
-    <a href="https://docs.google.com/viewer?url=https://github.com/MH-CW/4PLmenu.net/raw/main/Multimodal%20Dispatch%20Form.pdf" class="button">Multimodal Dispatch Form</a>
+    <a href="https://docs.google.com/viewer?url=https://github.com/MH-CW/4PLmenu.net/raw/main/Multimodal%20Dispatch%20Form.pdf&embedded=true" class="button">Multimodal Dispatch Form</a>
   </div>
 
 </body>
